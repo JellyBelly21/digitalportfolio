@@ -1,14 +1,7 @@
-
-.p {
-  font-family: "Orbitron", sans-serif;
-  font-style: normal;
+body{
+  background-color: #000814;
 }
 
-.skill-card   {
-  font-family: "Tourney", sans-serif;
-  font-style: normal;
-}
-
-logo   {
-    font-family: "Tourney",sans-serif
+p, li{
+  color: #E6BCCD
 }
