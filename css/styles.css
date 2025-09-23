@@ -2,7 +2,7 @@ body{
   background-color: #000814;
 }
 
-p {
+p, h3 {
   color: #E6BCCD;
 }
 
@@ -16,4 +16,8 @@ h1{
 
 ul, li {
   color: #6713CD;
+}
+
+h3  {
+  text-align: right;
 }
