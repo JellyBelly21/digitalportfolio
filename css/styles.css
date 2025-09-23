@@ -1,5 +1,5 @@
 
-p {
+.p {
   font-family: "Orbitron", sans-serif;
   font-style: normal;
 }
@@ -9,3 +9,6 @@ p {
   font-style: normal;
 }
 
+logo   {
+    font-family: "Tourney",sans-serif
+}
