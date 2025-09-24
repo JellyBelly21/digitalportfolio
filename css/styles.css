@@ -1,7 +1,11 @@
 body{
   background-color: #000814;
 }
-
+.nav-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 /* .navigation {
   position: fixed;
 } */
