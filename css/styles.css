@@ -1,13 +1,14 @@
 body{
   background-color: #000814;
 }
-.nav-header{
+
+img {
+  
+}
+.nav-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.links  {
-color: #6713CD;
 }
 
 .skills {
