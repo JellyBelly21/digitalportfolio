@@ -6,11 +6,15 @@ body{
   justify-content: space-between;
   align-items: center;
 }
-/* .navigation {
-  position: fixed;
-} */
+.links  {
+color: #6713CD;
+}
 
-p, h3 {
+.skills {
+  text-align: center;
+}
+
+h3 {
   color: #E6BCCD;
 }
 
@@ -18,16 +22,8 @@ h2 {
   color: #89FC00;
 }
 
-h1{
+.logo{
   color: #fcfcfc;
-}
-
-ul, li {
-  color: #6713CD;
-}
-
-h3  {
-  text-align: right;
 }
 
 li {
@@ -35,13 +31,9 @@ li {
   padding-right: 5rem;
   text-decoration: none;
   list-style: none;
+  color: #6713CD;
+  
 }
-
- /* nav ul{
-  display: flex;
-  list-style: none;
- }
-  */
 
   .copyright  {
     text-align: center;
