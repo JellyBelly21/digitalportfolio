@@ -1,11 +1,7 @@
 body{
   background-color: #000814;
 }
-
-img {
-  
-}
-.nav-header {
+.nav-header{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +9,10 @@ img {
 
 .skills {
   text-align: center;
+}
+
+.link {
+  color: #6713CD;
 }
 
 h3 {
@@ -24,12 +24,12 @@ h3 {
 h2 {
   color: #89FC00;
   font-family: Tourney;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .logo{
   color: #fcfcfc;
-  font-size: 45px;
+  font-size: 70px;
 }
 
 li {
@@ -38,7 +38,7 @@ li {
   text-decoration: none;
   list-style: none;
   color: #6713CD;
-  font-size: 20px;
+  font-size: 25px;
   
 }
 
