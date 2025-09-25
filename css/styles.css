@@ -28,8 +28,8 @@ nav ul {
     font-size: .7em;
 }
 
-.my-contacts, a {
-    color:  #fcfcfc;
+.my-contacts, a  {
+ color:  #fcfcfc;
     text-decoration: none;
     text-align: center;
 }
