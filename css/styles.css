@@ -4,8 +4,6 @@ body{
   line-height: 20px;
 }
 .nav-header{
-    /* padding: 10px 20px; */
-    /* border-bottom: solid 3px #6713CD; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,12 +20,23 @@ body{
     align-items: center;
     box-shadow: 8px 8px 10px ; 
 }
-.nav-links  {
-  color: #6713CD;
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: .7em;
 }
 
-.profile h3 {
-text-align: left;
+.my-contacts, a {
+    color:  #fcfcfc;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a {
+    color:  #89FC00;
+    text-decoration: none;
 }
 
 .profile-pic {
@@ -54,7 +63,7 @@ h3 {
   color: #E6BCCD;
   font-family: Orbitron;
   font-size: 15px;
-  /* margin-top: 20px; */
+  margin-top: 20px;
 }
 
 h2 {
@@ -77,10 +86,9 @@ line-height: 10px;
 li {
   display: inline;
   padding-right: 5rem;
-  text-decoration: none;
-  list-style: none;
   color: #E6BCCD;
   font-size: 20px;
+  text-align: center;
 }
 
   .copyright  {
