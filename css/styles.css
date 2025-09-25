@@ -3,34 +3,55 @@ body{
   letter-spacing: 1px;
 }
 .nav-header{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    /* padding: 10px 20px; */
+    /* border-bottom: solid 3px #6713CD; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.profile, .history, .abilities, .socials  {
+    background-color: #6713CD;
+    border: 5px solid #fcfcfc;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    box-shadow: 8px 8px 10px ;
+    
+}
+/* .wings {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 3px dotted cornflowerblue;
+} */
 
 .my-skills,.my-contacts {
   text-align: center;
 }
 
 .link {
-  color: #6713CD;
+  color: #fcfcfc;
 }
 
 h3 {
   color: #E6BCCD;
   font-family: Orbitron;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 h2 {
   color: #89FC00;
   font-family: Tourney;
-  font-size: 35px;
+  font-size: 30px;
+  text-align: left;
 }
 
 .logo{
   color: #fcfcfc;
-  font-size: 70px;
+  font-size: 65px;
 }
 
 p {
@@ -42,8 +63,8 @@ li {
   padding-right: 5rem;
   text-decoration: none;
   list-style: none;
-  color: #6713CD;
-  font-size: 25px;
+  color: #E6BCCD;
+  font-size: 20px;
   
 }
 
