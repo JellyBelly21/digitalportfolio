@@ -1,6 +1,7 @@
 body{
   background-color: #000814;
   letter-spacing: 1px;
+  line-height: 20px;
 }
 .nav-header{
     /* padding: 10px 20px; */
@@ -21,20 +22,28 @@ body{
     align-items: center;
     box-shadow: 8px 8px 10px ; 
 }
+.nav-links  {
+  color: #6713CD;
+}
 
 .profile h3 {
 text-align: left;
 }
 
 .profile-pic {
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-    border: 3px dotted #E6BCCD;
+    border-radius: 40%;
+    width: 150px;
+    height: 150px;
+    border: 3px dotted #89FC00;
 }
 
 .my-skills,.my-contacts {
   text-align: center;
+}
+
+.bio  {
+    text-align: left;
+    float: left;
 }
 
 .link {
@@ -45,6 +54,7 @@ h3 {
   color: #E6BCCD;
   font-family: Orbitron;
   font-size: 15px;
+  /* margin-top: 20px; */
 }
 
 h2 {
@@ -60,7 +70,8 @@ h2 {
 }
 
 p {
-  color: #fcfcfc;
+color: #fcfcfc;
+line-height: 10px;
 }
 
 li {
@@ -70,7 +81,6 @@ li {
   list-style: none;
   color: #E6BCCD;
   font-size: 20px;
-  
 }
 
   .copyright  {
