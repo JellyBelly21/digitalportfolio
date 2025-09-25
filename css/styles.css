@@ -12,21 +12,26 @@ body{
 .profile, .history, .abilities, .socials  {
     background-color: #6713CD;
     border: 5px solid #fcfcfc;
+    color: #89FC00;
     padding: 20px;
     width: 80%;
     margin: auto;
     display: flex;
     gap: 20px;
     align-items: center;
-    box-shadow: 8px 8px 10px ;
-    
+    box-shadow: 8px 8px 10px ; 
 }
-/* .wings {
+
+.profile h3 {
+text-align: left;
+}
+
+.profile-pic {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    border: 3px dotted cornflowerblue;
-} */
+    border: 3px dotted #E6BCCD;
+}
 
 .my-skills,.my-contacts {
   text-align: center;
