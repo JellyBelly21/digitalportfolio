@@ -37,6 +37,7 @@ text-decoration: none;
 nav a {
     color:  #89FC00;
     text-decoration: none;
+    /* position: fixed; */
 }
 
 .profile-pic {
