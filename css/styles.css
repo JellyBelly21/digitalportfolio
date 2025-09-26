@@ -2,12 +2,15 @@ body{
   background-color: #000814;
   letter-spacing: 1px;
   line-height: 20px;
+  display: flex;
 }
 .nav-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 2em;
 }
+
 .profile, .history, .abilities, .socials  {
     background-color: #6713CD;
     border: 5px solid #fcfcfc;
@@ -15,9 +18,7 @@ body{
     padding: 20px;
     width: 80%;
     margin: auto;
-    display: flex;
     gap: 20px;
-    align-items: center;
     box-shadow: 8px 8px 10px ; 
 }
 
@@ -28,10 +29,9 @@ nav ul {
     font-size: .7em;
 }
 
-.my-contacts, a  {
- color:  #fcfcfc;
-    text-decoration: none;
-    text-align: center;
+.contact-list, a  {
+color:  #fcfcfc;
+text-decoration: none;
 }
 
 nav a {
@@ -41,18 +41,23 @@ nav a {
 
 .profile-pic {
     border-radius: 40%;
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border: 3px dotted #89FC00;
 }
 
-.my-skills,.my-contacts {
+.skill-list, .contact-list {
   text-align: center;
 }
 
-.bio  {
-    text-align: left;
-    float: left;
+.bio {
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 50%;
+    margin-top: 5%;
+    text-align: center;
+    float: right;
 }
 
 .link {
@@ -70,7 +75,7 @@ h2 {
   color: #89FC00;
   font-family: Tourney;
   font-size: 30px;
-  text-align: left;
+  text-align: center;
 }
 
 .logo{
@@ -90,7 +95,6 @@ li {
   font-size: 20px;
   text-align: center;
 }
-
   .copyright  {
     text-align: center;
   }
