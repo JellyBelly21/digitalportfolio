@@ -34,7 +34,7 @@ color:  #fcfcfc;
 text-decoration: none;
 }
 
-nav a {
+nav a { 
     color:  #89FC00;
     text-decoration: none;
     /* position: fixed; */
@@ -77,6 +77,7 @@ h2 {
   font-family: Tourney;
   font-size: 30px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .logo{
