@@ -4,6 +4,10 @@ body{
   line-height: 20px;
   display: flex;
 }
+
+img{
+  width:100%;
+}
 .nav-header{
     display: flex;
     justify-content: space-between;
@@ -19,7 +23,19 @@ body{
     width: 80%;
     margin: auto;
     gap: 20px;
-    box-shadow: 8px 8px 10px ; 
+    box-shadow: 8px 8px 10px; 
+}
+
+.my-projects, p  {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-projects img  {
+max-width: 200px;
+display: flex;
 }
 
 nav ul {
@@ -59,10 +75,6 @@ nav a {
     margin-top: 5%;
     text-align: center;
     float: right;
-}
-
-.link {
-  color: #fcfcfc;
 }
 
 h3 {
