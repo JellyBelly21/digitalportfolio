@@ -1,8 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background-color: #000814;
   letter-spacing: 1px;
-  line-height: 20px;
-  display: flex;
 }
 
 img{
@@ -12,7 +15,10 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 2em;
+    padding: 75px;
+    position: sticky;
+    top: 0;
+   background-color: #000814;
 }
 
 .profile, .history, .abilities, .socials  {
@@ -21,12 +27,19 @@ img{
     color: #89FC00;
     padding: 20px;
     width: 80%;
-    margin: auto;
+    margin:25px auto 0 auto;
     gap: 20px;
     box-shadow: 8px 8px 10px; 
 }
 
-.my-projects, p  {
+#projects {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.my-projects  {
   display: flex;
   gap: 60px;
   justify-content: center;
@@ -53,7 +66,12 @@ text-decoration: none;
 nav a { 
     color:  #89FC00;
     text-decoration: none;
-    /* position: fixed; */
+}
+
+.personal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .profile-pic {
@@ -64,24 +82,22 @@ nav a {
 }
 
 .skill-list, .contact-list {
-  text-align: center;
+text-align: center;
+display: flex;
+list-style-type: none ;
+justify-content: space-between;
+margin-top: 50px;
 }
 
 .bio {
-    display:flex;
-    flex-direction: column;
-    gap: 20px;
     max-width: 50%;
-    margin-top: 5%;
-    text-align: center;
-    float: right;
+    text-align: justify;
 }
 
 h3 {
   color: #E6BCCD;
   font-family: Orbitron;
   font-size: 15px;
-  margin-top: 20px;
 }
 
 h2 {
@@ -103,12 +119,38 @@ line-height: 10px;
 }
 
 li {
-  display: inline;
-  padding-right: 5rem;
   color: #E6BCCD;
   font-size: 20px;
   text-align: center;
 }
-  .copyright  {
+
+.copyright  {
     text-align: center;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:768px) {
+  
+  .nav-header {
+  flex-direction: column;
+  gap: 20px;
+}
+  
+  
+  .personal {
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 40px;
   }
+
+  .bio {
+    max-width:85% ;
+  }
+
+.skill-list, .contact-list {
+flex-direction: column;
+gap: 15px
+}
+
+}
