@@ -21,7 +21,7 @@ img{
     background-color: #000814;
 }
 
-.container, .about-info, .hard-skills, .soft-skills, .adaptive-skills  {
+.container, .about-info, .hard-skills, .soft-skills  {
     background-color: #6713CD;
     border: 5px solid #fcfcfc;
     color: #89FC00;
@@ -162,8 +162,7 @@ li {
   gap: 20px;
 }
   
-  
-  .personal {
+  .personal, .my-projects, .about-info {
     flex-direction: column;
     gap: 35px;
     margin-top: 40px;
