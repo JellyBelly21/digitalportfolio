@@ -18,18 +18,19 @@ img{
     padding: 75px;
     position: sticky;
     top: 0;
-   background-color: #000814;
+    background-color: #000814;
 }
 
-.profile, .history, .abilities, .socials  {
+.profile, .history, .abilities, .socials, .about-info  {
     background-color: #6713CD;
     border: 5px solid #fcfcfc;
     color: #89FC00;
-    padding: 20px;
+    padding: 30px;
     width: 80%;
     margin:25px auto 0 auto;
     gap: 20px;
     box-shadow: 8px 8px 10px; 
+    
 }
 
 #projects {
@@ -73,6 +74,11 @@ nav a {
   justify-content: space-around;
   align-items: center;
 }
+.dnd-character  {
+ display: flex;
+ height: 400px;
+ width: 300px;
+}
 
 .profile-pic {
     border-radius: 40%;
@@ -93,6 +99,10 @@ margin-top: 50px;
     max-width: 50%;
     text-align: justify;
 }
+.background {
+text-align: center;
+margin-top: 20px;
+}
 
 h3 {
   color: #E6BCCD;
@@ -100,7 +110,7 @@ h3 {
   font-size: 15px;
 }
 
-h2 {
+h2, .about-me {
   color: #89FC00;
   font-family: Tourney;
   font-size: 30px;
@@ -108,7 +118,7 @@ h2 {
   text-transform: uppercase;
 }
 
-.logo{
+.logo {
   color: #fcfcfc;
   font-size: 65px;
 }
@@ -127,6 +137,10 @@ li {
 .copyright  {
     text-align: center;
     margin-top: 50px;
+}
+
+.about-info {
+  display: flex;
 }
 
 
