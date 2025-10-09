@@ -21,7 +21,7 @@ img{
     background-color: #000814;
 }
 
-.profile, .history, .abilities, .socials, .about-info  {
+.container, .about-info, .hard-skills, .soft-skills, .adaptive-skills  {
     background-color: #6713CD;
     border: 5px solid #fcfcfc;
     color: #89FC00;
@@ -45,11 +45,6 @@ img{
   gap: 60px;
   justify-content: center;
   align-items: center;
-}
-
-.my-projects img  {
-max-width: 200px;
-display: flex;
 }
 
 nav ul {
@@ -87,12 +82,25 @@ nav a {
     border: 3px dotted #89FC00;
 }
 
+.my-projects img  {
+max-width: 200px;
+display: flex;
+}
+
 .skill-list, .contact-list {
 text-align: center;
 display: flex;
 list-style-type: none ;
 justify-content: space-between;
 margin-top: 50px;
+}
+
+.hard-list, .soft-list, .adaptive-list  {
+text-align: center;
+/* display: flex; */
+list-style-type: none ;
+/* justify-content: space-between; */
+margin-top: 25px;
 }
 
 .bio {
@@ -141,6 +149,9 @@ li {
 
 .about-info {
   display: flex;
+  align-items: center;
+  text-align: justify;
+  
 }
 
 
