@@ -22,7 +22,7 @@ img{
     border-bottom: 1px solid seashell;
 }
 
-.container, .about-info, .hard-skills, .soft-skills  {
+.container, .about-info, .soft-skills  {
     background-color: #6713CD;
     border: 6px solid #fcfcfc;
     color: #89FC00;
@@ -32,6 +32,28 @@ img{
     gap: 30px;
     box-shadow: 10px 10px 12px; 
 }
+
+.container-2  {
+    background-color: #6713CD;
+    border: 6px solid #fcfcfc;
+    color: #89FC00;
+    padding: 10px;
+    height: 350px;
+    width: 350px;
+    margin:50px auto 0 auto;
+    gap: 30px;
+    box-shadow: 10px 10px 15px; 
+    justify-content: space-between;
+}
+
+/* .location {
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 30px;
+} */
 
 #projects {
   text-align: center;
@@ -95,7 +117,7 @@ justify-content: space-between;
 margin-top: 50px;
 }
 
-.hard-list, .soft-list, .adaptive-list  {
+.list, .soft-list  {
 text-align: center;
 /* display: flex; */
 list-style-type: none ;
@@ -155,6 +177,45 @@ li {
   text-align: justify;
 }
 
+.list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 65px auto;
+  padding: 65px;
+  gap: 30px;
+}
+
+/* .location {
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  background-color: black;
+  text-align: center;
+  margin-bottom: 30px;
+} */
+
+/* .tea-of-the-month {
+  margin: 65px auto;
+}
+
+.tea-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.tea-item img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  justify-content: space-around;
+}
+.tea-item h4{
+  margin:0;
+} */
+
 
 @media screen and (max-width:768px) {
   
@@ -162,7 +223,7 @@ li {
   flex-direction: column;
   gap: 20px;
 }
-  
+
   .personal, .my-projects, .about-info {
     flex-direction: column;
     gap: 35px;
