@@ -11,15 +11,22 @@ body{
 img{
   width:100%;
 }
+
+.logo {
+  color: #fcfcfc;
+  font-size: 80px;
+  padding: 30px;
+}
+
 .nav-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: px;
+    /* padding: 5px; */
     position: sticky;
     top: 0;
     background-color: #000814;
-    border-bottom: 1px solid seashell;
+    border-bottom: 2px solid seashell;
 }
 
 .container, .about-info, .soft-skills  {
@@ -31,6 +38,7 @@ img{
     margin:50px auto 0 auto;
     gap: 30px;
     box-shadow: 10px 10px 12px; 
+
     /* align-items: center;
     justify-content: center; */
     
@@ -41,13 +49,11 @@ img{
     border: 6px solid #fcfcfc;
     color: #89FC00;
     padding: 20px;
-    height: 350px;
-    width: 350px;
     margin:50px 50px;
     gap: 30px;
     box-shadow: 10px 10px 15px; 
     justify-content: space-around;
-    /* display: flex; */
+   flex-grow: 0;
 }
 
 /* .location {
@@ -155,12 +161,6 @@ h2, .about-me {
   font-size: 40px;
   text-align: center;
   text-transform: uppercase;
-}
-
-.logo {
-  color: #fcfcfc;
-  font-size: 70px;
-  padding: 30px;
 }
 
 p {
