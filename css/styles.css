@@ -9,13 +9,12 @@ body{
 }
 
 img{
-  width:100%;
+width:100%;
 }
 
 .logo {
   color: #fcfcfc;
-  font-size: 80px;
-  padding: 30px;
+  font-size: 3rem;
 }
 
 .nav-header{
@@ -26,6 +25,19 @@ img{
     top: 0;
     background-color: #000814;
     border-bottom: 2px solid seashell;
+    padding: 30px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    font-size: .7em;
+}
+
+nav a { 
+    color:  #89FC00;
+    text-decoration: none;
+    font-size: 2rem;
 }
 
 .container, .about-info, .soft-skills  {
@@ -47,6 +59,7 @@ img{
   color: #89FC00;
   padding: 20px;
   box-shadow: 10px 10px 15px;
+  justify-content: center;
 }
 
 .list-2 {
@@ -72,23 +85,9 @@ img{
   align-items: center;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-    font-size: .7em;
-}
-
 .contact-list, a  {
 color:  #fcfcfc;
 text-decoration: none;
-}
-
-nav a { 
-    color:  #89FC00;
-    text-decoration: none;
-    font-size: 30px;
-    padding: 30px;
 }
 
 .personal {
@@ -97,9 +96,11 @@ nav a {
   align-items: center;
 }
 .dnd-character  {
- display: flex;
- height: 400px;
- width: 300px;
+ /* display: flex; */
+ /* height: 400px;
+ width: 300px; */
+
+
 }
 
 .profile-pic {
@@ -131,23 +132,27 @@ margin-top: 25px;
 .bio {
     max-width: 50%;
     text-align: justify;
+     color: #E6BCCD;
 }
 
-.background, h3 {
+/* .background, h3 {
 margin-top: 20px;
-}
+} */
 
-h3 {
+.orbitron-text {
   color: #E6BCCD;
   font-family: Orbitron;
-  font-size: 20px;
-  text-align:center
+  font-size: 1.7rem;
+  text-align:center;
+  line-height: 2.2rem;
+  margin-top: 20px;
+  font-weight: bold;
 }
 
 h2, .about-me {
   color: #89FC00;
   font-family: Tourney;
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -173,10 +178,9 @@ li {
 .about-info {
   display: flex;
   align-items: center;
-  text-align: justify;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
   
   .nav-header {
   flex-direction: column;
@@ -195,7 +199,7 @@ li {
 
 .skill-list, .contact-list {
 flex-direction: column;
-gap: 15px
+gap: 15px;
 }
 
 }
