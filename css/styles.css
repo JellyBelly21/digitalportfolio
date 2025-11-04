@@ -22,7 +22,6 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 5px; */
     position: sticky;
     top: 0;
     background-color: #000814;
@@ -39,32 +38,25 @@ img{
     gap: 30px;
     box-shadow: 10px 10px 12px; 
     flex-grow: 0;
-
-    /* align-items: center;
-    justify-content: center; */
-    
 }
-
 .container-2  {
-    background-color: #6713CD;
-    border: 6px solid #fcfcfc;
-    color: #89FC00;
-    padding: 20px;
-    margin:50px 50px;
-    gap: 30px;
-    box-shadow: 10px 10px 15px; 
-    /* justify-content: space-around; */
-   flex-grow: 0;
+  flex-basis: 450px;
+  flex-grow: 1;
+  background-color: #6713CD;
+  border: 6px solid #fcfcfc;
+  color: #89FC00;
+  padding: 20px;
+  box-shadow: 10px 10px 15px;
 }
 
-/* .location {
-  width: 250px;
-  height: 250px;
-  padding: 15px;
-  background-color: black;
-  text-align: center;
-  margin-bottom: 30px;
-} */
+.list-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 65px auto;
+  padding: 65px;
+  gap: 65px;
+}
 
 #projects {
   text-align: center;
@@ -132,9 +124,7 @@ margin-top: 50px;
 
 .list, .soft-list  {
 text-align: center;
-/* display: flex; */
 list-style-type: none ;
-/* justify-content: space-between; */
 margin-top: 25px;
 }
 
@@ -145,8 +135,6 @@ margin-top: 25px;
 
 .background, h3 {
 margin-top: 20px;
-/* align-items: end; */
-/* justify-content: end; */
 }
 
 h3 {
@@ -187,46 +175,6 @@ li {
   align-items: center;
   text-align: justify;
 }
-
-.list-2 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 65px auto;
-  padding: 65px;
-  gap: 30px;
-}
-
-/* .location {
-  width: 250px;
-  height: 250px;
-  padding: 15px;
-  background-color: black;
-  text-align: center;
-  margin-bottom: 30px;
-} */
-
-/* .tea-of-the-month {
-  margin: 65px auto;
-}
-
-.tea-items {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-}
-
-.tea-item img {
-  width: 300px;
-  height: 200px;
-  padding: 10px;
-  justify-content: space-around;
-}
-.tea-item h4{
-  margin:0;
-} */
-
 
 @media screen and (max-width:768px) {
   
