@@ -9,7 +9,8 @@ body{
 }
 
 img{
-width:100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .logo {
@@ -49,7 +50,7 @@ nav a {
     margin:50px auto 0 auto;
     gap: 30px;
     box-shadow: 10px 10px 12px; 
-    flex-grow: 0;
+    justify-content: center;
 }
 .container-2  {
   flex-basis: 450px;
@@ -59,7 +60,24 @@ nav a {
   color: #89FC00;
   padding: 20px;
   box-shadow: 10px 10px 15px;
+  align-items: center;
+    width: 80%;
+}
+.container-3  {
+  margin:50px;
   justify-content: center;
+  background-color: #6713CD;
+  border: 6px solid #fcfcfc;
+  color: #89FC00;
+  padding: 20px;
+  box-shadow: 10px 10px 15px;
+  align-items: center;
+}
+.about-text {
+  font-size: 1.7rem;
+  color: #E6BCCD;
+  line-height: 2.2rem;
+  float: left;
 }
 
 .list-2 {
@@ -95,24 +113,17 @@ text-decoration: none;
   justify-content: space-around;
   align-items: center;
 }
-.dnd-character  {
 
- height: 400px;
- width: 300px;
-
-
-}
-
-.profile-pic {
+.profile-pic{
     border-radius: 40%;
-    width: 300px;
-    height: 300px;
-    border: 3px dotted #89FC00;
+    width: 400px;
+    height: 400px;
+    border: 2px dotted #89FC00;
 }
 
 .my-projects img  {
-max-width: 200px;
-display: flex;
+  max-width: 200px;
+  display: block;
 }
 
 .skill-list, .contact-list {
@@ -135,20 +146,22 @@ margin-top: 25px;
      color: #E6BCCD;
      font-size: 2rem;
 }
+.dnd-character  {
+display: flex;
+width: 500px;
+ 
+}
 
-/* .background, h3 {
-margin-top: 20px;
-} */
-
-.orbitron-text {
+.orbitron-text, .copyright {
   color: #E6BCCD;
   font-family: Orbitron;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   text-align:center;
-  line-height: 2.2rem;
+  line-height: 2rem;
   margin-top: 20px;
   font-weight: bold;
 }
+
 
 h2, .about-me {
   color: #89FC00;
@@ -169,13 +182,7 @@ li {
   font-size: 30px;
   text-align: center;
 }
-
-.copyright  {
-    text-align: center;
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
+ 
 .about-info {
   display: flex;
   align-items: center;
