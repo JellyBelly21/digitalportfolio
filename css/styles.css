@@ -80,6 +80,12 @@ nav a {
   float: left;
 }
 
+.about-info {
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
 .list-2 {
   display: flex;
   flex-wrap: wrap;
@@ -148,7 +154,8 @@ margin-top: 25px;
 }
 .dnd-character  {
 display: flex;
-width: 500px;
+width: 400px;
+padding: 20px;
  
 }
 
@@ -183,10 +190,13 @@ li {
   text-align: center;
 }
  
-.about-info {
+.about-image {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
+
+
 
 @media screen and (max-width:900px) {
   
